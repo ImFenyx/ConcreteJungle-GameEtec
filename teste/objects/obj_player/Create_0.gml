@@ -11,7 +11,7 @@ pulos = 2
 
 hsp = 0
 vsp = 0
-spd = 4
+spd = 6
 
 
 grav=1

@@ -33,10 +33,11 @@ if keyboard_check_pressed(vk_space) && pulos > 0
 
 // Novo
 
+// movimentação horizontal
 move = -keyboard_check(vk_left)+keyboard_check(vk_right)
 
 hsp=move*spd
-//x
+// colisao x
 if place_meeting(x+hsp,y,obj_block)
 {
 	while !place_meeting(x+sign(hsp),y,obj_block)
@@ -48,7 +49,7 @@ if place_meeting(x+hsp,y,obj_block)
 
 x+=hsp
 
-//y
+// colisao y
 if place_meeting(x,y+vsp,obj_block)
 {
 	while !place_meeting(x,y+sign(vsp),obj_block)
@@ -60,7 +61,7 @@ if place_meeting(x,y+vsp,obj_block)
 
 y+=vsp
 
-//pulo
+// colisao de pulo
 if place_meeting(x,y+1,obj_block)
 {
 	pulos = 2
@@ -70,14 +71,31 @@ else
 	vsp += grav
 }
 
+// pulo duplo
 if keyboard_check_pressed(vk_space) && pulos > 0
 {
 	vsp = jspd
 	pulos -= 1
 }
 
-if life <= 0
-{
-	instance_destroy(obj_player)
-	show_message("você morreu")
+// Agachar
+if keyboard_check(vk_down) {
+	sprite_index = spr_player_cagando
+}
+
+else {
+	sprite_index = spr_player	
+}
+
+// Correr
+if keyboard_check(vk_shift) {
+spd = 12
+}
+else {
+spd = 6
+}
+
+
+if keyboard_check_pressed(vk_f2) {
+	game_restart()
 }
