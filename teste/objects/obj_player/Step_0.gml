@@ -1,42 +1,19 @@
-/* Antigo
-// Andar
-
-
-if keyboard_check(vk_left)
-{
-	x -= spd
-}
-
-if keyboard_check(vk_right)
-{
-	x += spd
-}
-
-// colisão
-if place_meeting(x,y+1,obj_block)
-{
-	vspeed = 0
-	pulos = 2
-}
-else
-{
-	vspeed += 0.3
-}
-
-// pulo
-if keyboard_check_pressed(vk_space) && pulos > 0
-{
-	vspeed= -6
-	pulos-= 1
-}
-*/
-
-// Novo
-
 // movimentação horizontal
-move = -keyboard_check(vk_left)+keyboard_check(vk_right)
+move = -keyboard_check(vk_left)+keyboard_check(vk_right) -keyboard_check(ord("A"))+keyboard_check(ord("D"))
 
 hsp=move*spd
+
+
+// Muda o lado de andar
+if move!=0 {
+	if move < 0 {
+		image_xscale = -spritelado
+		}
+	else {
+		image_xscale = +spritelado
+	}
+}
+
 // colisao x
 if place_meeting(x+hsp,y,obj_block)
 {
@@ -72,14 +49,14 @@ else
 }
 
 // pulo duplo
-if keyboard_check_pressed(vk_space) && pulos > 0
+if keyboard_check_pressed(vk_space) && pulos > 0 or keyboard_check_pressed(vk_up) && pulos > 0
 {
 	vsp = jspd
 	pulos -= 1
 }
 
 // Agachar
-if keyboard_check(vk_down) {
+if keyboard_check(vk_down) or keyboard_check(ord("S")){
 	sprite_index = spr_player_cagando
 }
 
@@ -89,13 +66,22 @@ else {
 
 // Correr
 if keyboard_check(vk_shift) {
-spd = 12
+	spd = 12
 }
 else {
-spd = 6
+	spd = 6
 }
 
 
-if keyboard_check_pressed(vk_f2) {
-	game_restart()
+if timer <= 0 {
+	if place_meeting(x,y,obj_enemy) {
+	life -= 10
+	timer = 15
+	}
+}
+
+timer-=1
+
+if life <= 0 {
+	instance_destroy()
 }
