@@ -14,6 +14,6 @@ pulos= 2
 // tamanho x (lado) do sprite
 spritelado = 2
 // vida
-life=3
+global.life=3
 // timer de dano
 timer = 0

@@ -11,6 +11,6 @@ grav=1
 spritelado = 2
 
 // vida
-life=100
+life = 3
 // timer de dano
 timer = 15

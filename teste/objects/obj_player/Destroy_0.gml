@@ -1,2 +1,2 @@
 show_message("Game Over")
-game_end()
+game_restart()

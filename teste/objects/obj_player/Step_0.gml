@@ -1,8 +1,22 @@
-// movimentação horizontal
+// Movimentação horizontal
 move = -keyboard_check(vk_left)+keyboard_check(vk_right) -keyboard_check(ord("A"))+keyboard_check(ord("D"))
 
 hsp=move*spd
 
+// Animações
+if move != 0 and !keyboard_check(vk_down) and !keyboard_check(ord("S")) and !place_meeting(x,y-1,obj_block) and place_meeting(x,y+1,obj_block)
+{
+	sprite_index = spr_player_walk
+}
+else if keyboard_check(vk_down) or keyboard_check(ord("S")) or place_meeting(x,y-1,obj_block) and place_meeting(x,y+1,obj_block){
+	sprite_index = spr_player_crouch
+}
+else if !place_meeting(x,y+1,obj_block){
+	sprite_index = spr_player_fall
+}
+else {
+	sprite_index = spr_player_idle	
+}
 
 // Muda o lado de andar
 if move!=0 {
@@ -55,20 +69,11 @@ if keyboard_check_pressed(vk_space) && pulos > 0 or keyboard_check_pressed(vk_up
 	pulos -= 1
 }
 
-// Agachar
-if keyboard_check(vk_down) or keyboard_check(ord("S")){
-	sprite_index = spr_player_crouch
-}
-
-else {
-	sprite_index = spr_player_idle	
-}
-
 // Correr
-if keyboard_check(vk_shift) {
+if keyboard_check(vk_shift) and sprite_index = spr_player_walk or sprite_index = spr_player_fall{
 	spd = 6
 }
-else if sprite_index = spr_player_crouch {
+else if sprite_index = spr_player_crouch{
 	spd = 1
 }
 else {
@@ -78,14 +83,14 @@ else {
 
 if timer <= 0 {
 	if place_meeting(x,y,obj_enemy) {
-	life -= 1
-	timer = 30
+	global.life -= 1
+	timer = 50
 	audio_play_sound(sfx_hit,0,0)
 	}
 }
 
 timer-=1
 
-if life <= 0 {
+if global.life <= 0 {
 	instance_destroy()
 }
