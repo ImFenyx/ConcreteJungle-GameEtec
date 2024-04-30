@@ -2,8 +2,7 @@
 Projeto do Gamemaker para a ETEC sobre um sapo humanoide.
 
 # BRANCH MAIS RECENTE: EDUARDO
-
-# Branchs:
+  Branchs:
 - Main - Projeto **ESTÁVEL** com todas as alterações
 
 - Iago - alterações minhas (@ImFenyx)
