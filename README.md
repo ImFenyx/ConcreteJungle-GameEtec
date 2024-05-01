@@ -1,7 +1,7 @@
 # Concrete Jungle
 Projeto do Gamemaker para a ETEC sobre um sapo humanoide.
 
-# BRANCH MAIS RECENTE: EDUARDO
+# BRANCH MAIS RECENTE: EDUARDO (ou caio se não contar o sprite do druida)
   Branchs:
 - Main - Projeto **ESTÁVEL** com todas as alterações
 
