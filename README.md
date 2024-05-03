@@ -1,5 +1,5 @@
 <div align="center">
-<img width="65%" src="/imgs/logo.png">
+<img width="50%" src="/imgs/logo.png">
 <h1> Projeto do Gamemaker para a ETEC sobre um sapo humanoide. </h1>
 <br>
 <img src="https://img.shields.io/github/commit-activity/w/ImFenyx/ConcreteJungle-GameEtec?&label=Altera%C3%A7%C3%B5es%20por%20semana&color=purple">
