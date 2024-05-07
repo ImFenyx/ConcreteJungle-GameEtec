@@ -30,7 +30,7 @@ Para instalar nosso projeto, siga estes passos:
 ```
   - Veja no nosso Readme qual Branch é a mais recente ou se o Releases tem a build mais atualizada
 
-  - Na branch, clique no botão verde "CODE" e em Download ZIP
+  - Na branch, clique no zip do projeto e baixe
 
   - Caso for em Releases, baixe o ZIP na aba Releases
 
