@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/repo-size/ImFenyx/ConcreteJungle-GameEtec?style=for-the-badge&label=Tamanho%20do%20Reposit%C3%B3rio&color=purple">
 </div>
 
-# BRANCH MAIS RECENTE: Main
+# BRANCH MAIS RECENTE: Iago
 
 Projeto estável agora ficará no releases.
 
