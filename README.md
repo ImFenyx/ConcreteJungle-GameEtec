@@ -15,13 +15,11 @@ Projeto estável agora ficará no releases.
   Branchs:
 - Main - Projeto com todas as alterações
 
-- Iago - alterações minhas (@ImFenyx)
+- Iago - alterações minhas  @ImFenyx
 
-- Caio - alterações do Caio
+- Caio - alterações do Caio  @Knockout25
 
-- Eduardo - alterações do Eduardo
-
-- Luara - alterações da Luara
+- Eduardo e Luara criam os sprites
 
 ## Instalação
 
