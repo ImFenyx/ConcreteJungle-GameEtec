@@ -1,16 +1,34 @@
-# Concrete Jungle
-Projeto do Gamemaker para a ETEC sobre um sapo humanoide.
+<div align="center">
+<img width="50%" src="/imgs/logo.png">
+<h1> Projeto do Gamemaker para a ETEC sobre um sapo humanoide. </h1>
+<br>
+<img src="https://img.shields.io/github/commit-activity/w/ImFenyx/ConcreteJungle-GameEtec?style=for-the-badge&label=Altera%C3%A7%C3%B5es%20por%20semana&color=purple">
+<img src="https://img.shields.io/github/created-at/ImFenyx/ConcreteJungle-GameEtec?style=for-the-badge&label=Criado%20em&color=purple">
+<img src="https://img.shields.io/github/last-commit/ImFenyx/ConcreteJungle-GameEtec?style=for-the-badge&label=%C3%9Altima%20altera%C3%A7%C3%A3o&color=purple">
+<img src="https://img.shields.io/github/repo-size/ImFenyx/ConcreteJungle-GameEtec?style=for-the-badge&label=Tamanho%20do%20Reposit%C3%B3rio&color=purple">
+</div>
 
+Projeto estável agora ficará no releases.
 
-# Branchs:
-- Main - Projeto **ESTÁVEL** com todas as alterações
+  Branchs:
+- Main - Projeto com todas as alterações
 
-- Iago - alterações minhas (@ImFenyx)
+- Iago - alterações minhas  @ImFenyx
 
-- Caio - alterações do Caio
+- Caio - alterações do Caio  @Knockout25
 
-- Eduardo - alterações do Eduardo
+- Eduardo e Luara criam os sprites
 
-- Luara - alterações da Luara
+## Instalação
 
-- Testing - Projeto com todas as alterações sendo testado, corrigido e polido
+Para instalar nosso projeto, siga estes passos:
+
+```
+  - Veja no nosso Readme qual Branch é a mais recente ou se o Releases tem a build mais atualizada
+
+  - Na branch, clique no YYZ do projeto e baixe
+
+  - Caso for em Releases, baixe o YYZ na aba Releases
+
+  - Salve o YYZ e você poderá dar uma olhada no nosso projeto feito com carinho!
+```
