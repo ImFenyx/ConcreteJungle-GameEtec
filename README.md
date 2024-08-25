@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/github/repo-size/ImFenyx/ConcreteJungle-GameEtec?style=for-the-badge&label=Tamanho%20do%20Reposit%C3%B3rio&color=purple">
 </div>
 
-# BRANCH MAIS RECENTE: Eduardo
+# BRANCH MAIS RECENTE: Caio
 
 Projeto estável agora ficará no releases.
 
@@ -30,9 +30,9 @@ Para instalar nosso projeto, siga estes passos:
 ```
   - Veja no nosso Readme qual Branch é a mais recente ou se o Releases tem a build mais atualizada
 
-  - Na branch, clique no zip do projeto e baixe
+  - Na branch, clique no YYZ do projeto e baixe
 
-  - Caso for em Releases, baixe o ZIP na aba Releases
+  - Caso for em Releases, baixe o YYZ na aba Releases
 
-  - Extraia o ZIP e você poderá dar uma olhada no nosso projeto feito com carinho!
+  - Salve o YYZ e você poderá dar uma olhada no nosso projeto feito com carinho!
 ```
