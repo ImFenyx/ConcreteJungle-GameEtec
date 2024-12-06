@@ -10,13 +10,12 @@
 
 
 > [!WARNING]
-> **O Jogo a seguir está em desenvolvimento e feito como trabalho escolar a partir das necessidades**
+> **O Jogo a seguir foi feito como trabalho escolar a partir de suas necessidades**
 
 
 > [!NOTE]
-> **BRANCH MAIS RECENTE: Caio**
+> **Projeto final está no Releases**
 
-Projeto estável agora ficará no releases.
 ## 🔗 Branchs:
 
 - Main - Projeto com todas as alterações
@@ -60,7 +59,7 @@ Para instalar nosso projeto, siga estes passos:
 
   - Na branch, clique no YYZ do projeto e baixe
 
-  - Caso for em Releases, baixe o YYZ na aba Releases
+  - Caso for em Releases, baixe o zip na aba Releases
 
   - Salve o YYZ e você poderá dar uma olhada no nosso projeto feito com carinho!
 ```
